@@ -18,6 +18,16 @@ public class ProductController
 	
 		return product; 
 	}
+	
+	@GetMapping("/product/getOne")
+	public Product getProduct()
+	{
+		Product product = new Product();
+		
+		productMapper(product);
+	
+		return product; 
+	}
 
 	private void productMapper(Product product) 
 	{
