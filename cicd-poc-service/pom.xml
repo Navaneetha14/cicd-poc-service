@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.cicd</groupId>
-	<artifactId>cicd-poc-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>cicd</artifactId>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>cicd-poc-service</name>
+	<name>cicd</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -44,7 +44,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build>
-
+	</build> 
 
 </project>
