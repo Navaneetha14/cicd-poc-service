@@ -12,6 +12,12 @@ public class ProductController
 	@GetMapping("/product")
 	public Product getProductById()
 	{
+		for(i=0;i<10;i++)
+		{
+			//to test AWS code guru
+			i=i-1;
+		}
+		
 		Product product = new Product();
 		
 		productMapper(product);
