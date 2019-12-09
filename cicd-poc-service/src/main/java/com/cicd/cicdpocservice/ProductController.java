@@ -12,7 +12,7 @@ public class ProductController
 	@GetMapping("/product")
 	public Product getProductById()
 	{
-		for(i=0;i<10;i++)
+		for(i=1;i<10;i++)
 		{
 			//to test AWS code guru
 			i=i-1;
